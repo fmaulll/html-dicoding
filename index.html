@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Montserrat", sans-serif;
+      }
+      .nav-container {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 24px;
+        height: 70px;
+      }
+
+      .nav-container div {
+        margin-left: 30px;
+        color: white;
+        font-weight: 700;
+      }
+
+      .nav-items {
+        display: flex;
+      }
+
+      .nav-items a {
+        font-size: 24px;
+        margin-right: 30px;
+      }
+
+      .main-container {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(
+          to right,
+          rgb(255, 49, 83),
+          rgb(197, 197, 0)
+        );
+      }
+      .items-container {
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        width: 650px;
+      }
+      .items-container h1 {
+        margin-top: 30px;
+        color: white;
+      }
+      img {
+        border-radius: 50%;
+      }
+      .top-items {
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+          rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+          rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        display: flex;
+        align-items: center;
+      }
+      .top-items div {
+        margin-left: 20px;
+      }
+      aside {
+        width: 400px;
+        text-align: center;
+      }
+      /* Curve */
+      .custom-shape-divider-bottom-1654013187 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+      }
+
+      .custom-shape-divider-bottom-1654013187 svg {
+        position: relative;
+        display: block;
+        width: calc(223% + 1.3px);
+        height: 500px;
+      }
+
+      .custom-shape-divider-bottom-1654013187 .shape-fill {
+        fill: white;
+      }
+      footer{
+          text-align: center;
+          position: fixed;
+          bottom: 0;
+          width: 100%;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="nav-container">
+        <div>fmaulll</div>
+        <div class="nav-items">
+          <a>Home</a>
+          <a>About</a>
+          <a>Contact</a>
+        </div>
+      </div>
+    </header>
+    <div class="main-container">
+      <div class="items-container">
+        <div class="top-items">
+          <img
+            src="https://media-exp1.licdn.com/dms/image/C5603AQGZqGNAvYOoJg/profile-displayphoto-shrink_200_200/0/1640164490014?e=1658966400&v=beta&t=GhTo0MwF-o0np7oPwsP88E0V5Wq_m60B0yIk6pRCPFs"
+          />
+          <div>
+            <h1>Fikri Maulana Ibrahim</h1>
+
+            <p>Frontend Developer</p>
+          </div>
+        </div>
+
+        <aside>
+          <h4>Info</h4>
+          <p>
+            Hi! Saya Fikri Maulana Ibrahim, seorang Mahasisaw yang bercita-cita
+            untuk menjadi seorang Frontend Developer!
+          </p>
+        </aside>
+      </div>
+      <div class="custom-shape-divider-bottom-1654013187">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <footer>
+        &copy Fikri Maulana Ibrahim 2022
+    </footer>
+  </body>
+</html>
